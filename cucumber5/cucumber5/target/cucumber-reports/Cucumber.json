@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verification of reset button",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19717717447,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the application",
+            "match": {
+              "location": "Steps.Open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4378063174,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "Steps.Enter_the_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8330328596,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Reset the Credential",
+            "match": {
+              "location": "Steps.Reset_the_Credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "sample.feature"
+  }
+]
